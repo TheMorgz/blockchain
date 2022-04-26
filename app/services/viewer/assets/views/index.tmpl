@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<style>
+		.block-class {
+			border: 1px solid black;
+		}
+		</style>
 		<title>Ardan Node Viewer</title>
 		<meta content="Ardan blockchain node viewer" name="description">
         <meta charset="utf-8">
@@ -8,6 +13,8 @@
 		<script src="/assets/scripts/main.js?v1"></script>
 	</head>
 	<body>
-        <div id="msg">Connecting...</div>
+		<div id="msg-block">
+            <div id="first-msg" class="block-class">Connecting...</div>
+		</div>
     </body>
 </html>
